@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap&subset=cyrillic');
+header
+{
+    background-image: url("../Images/index_header.jpg");
+    margin: 5px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 10px 10px 60px 0px #0c7e76;
+}
+body
+{
+    font-family: 'Fira Mono';
+    margin: 0px;
+}
+.btn
+{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 20px 10px 30px;
+    border: 1px solid white;
+    background-color: #0c7e76;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+}
+p
+{
+    font-size: 22px;
+    text-align: justify;
+    text-indent: 40px;
+}
+article
+{
+    margin: 10px 5px;
+    padding: 10px 20px 20px;
+    background-color: #dbdbdb;
+    box-shadow: 10px 10px 40px 10px gray;
+    text-align: center;
+}
+.imgIndex
+{
+    background-image: url("../Images/index_image.jpg");
+    width: 1000px;
+    height: 480px;
+    background-size: cover;
+    margin: auto;
+}
+footer
+{
+    text-align: center;
+    margin: 30px;
+}
+.vk
+{
+    display: inline-block;
+    background-image: url("../Images/index_ico_vk.png");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    transition: 0.5s;
+}
+.inst
+{
+    display: inline-block;
+    background-image: url("../Images/index_ico_inst.jpg");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: 0.5s;
+}
+.tlg
+{
+    display: inline-block;
+    background-image: url("../Images/index_ico_tlg.jpg");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    transition: 0.5s;
+}
+.icon:hover
+{
+    width: 60px;
+    height: 60px;
+}
+ .btn:hover
+{
+    padding: 10px 20px;
+    font-size: 20px;
+}
